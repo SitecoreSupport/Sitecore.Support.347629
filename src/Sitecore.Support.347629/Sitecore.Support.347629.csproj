@@ -68,6 +68,7 @@
     <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Reference\System.Web.WebPages.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
@@ -80,12 +81,6 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="web.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Reference\Sitecore.Forms.Mvc.dll" />
-    <Content Include="Reference\Sitecore.WFFM.Abstractions.dll" />
-    <Content Include="Reference\System.Web.Mvc.dll" />
-    <Content Include="Reference\System.Web.WebPages.dll" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
